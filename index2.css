@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.container{
+    background: red;
+    width: 50%;
+    height: 40vh;
+}
+.container p{
+    margin-top: 130px;
+}
+section{
+    background: blueviolet;
+    width: 50%;
+    height: 200px;
+    margin-top: 28px;
+}
+section p{
+    margin-top: 80px;
+}
+nav{
+    width: 50%;
+    height: 10vh;
+    background-color: greenyellow;
+    margin-top: 20px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
