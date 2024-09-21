@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body{
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            height: 90vh;
+            background: black;
+        }
+        div{
+            background: white;
+            width: 20%;
+            padding: 20px;
+            border-radius: 4px;
+        }
+        div input{
+            text-align: center;
+            width: 70%;
+            padding: 4px;
+            border-radius: 4px;
+            border: 1px solid gray;
+        }
+        form input{
+            text-align: center;
+            width: 70%;
+            padding: 4px;
+            border-radius: 4px;
+            border: 1px solid gray;
+        }
+        form h1{
+            font-size: 34px;
+        }
+        .sub{
+            background: rgb(210, 52, 52);
+            color: white;
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form>
+            <h1>Login</h1><br>
+            <input type="text" placeholder="nome"><br><br>
+            <input type="password" placeholder="senha"><br><br>
+            <input type="email" placeholder="e-mail"><br><br>
+            <input class="sub" type="submit" value="Entrar"><br><br>
+        </form>
+    </div>
+</body>
+</html>
